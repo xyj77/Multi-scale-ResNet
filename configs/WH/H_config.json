@@ -1,0 +1,29 @@
+{
+  "exp_name": "softmax",
+  "data_path": "/home/lab304/xyj/Liver/Data",
+  "data_type": "WHO/ABKEFGHIJ",   
+  "classes": 3,
+  "repeat": 10, 
+  "num_epochs": 30,
+  "lr": 0.001,
+  "optimizer": "adam",
+  "batch_size": 16,
+  "Num_train": 256,
+  "Num_test": 128,
+  "patience": 10, 
+  "log_interval":16,
+  "min_lr": 0.00005, 
+  "fusion_type": "concat",
+  "isSample": false,
+  "isAug":true,
+  "embedding_size":2,
+  "isPretrain": false,
+  "withSPP":false,
+  "model_path": " ",
+  
+  "dict": {"A": 0, "B": 1, "K": 2, "E": 3, "F": 4, "G": 5, "H": 6, "I": 7, "J": 8},
+  "Fusion": [
+    "H"
+  ]
+  
+}

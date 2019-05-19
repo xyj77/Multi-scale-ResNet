@@ -1,0 +1,29 @@
+{
+  "exp_name": "siamese",
+  "data_path": "/home/lab304/xyj/Liver/Data",
+  "data_type": "WHO/EFGHIJ",   
+  "classes": 3,
+  "repeat": 10, 
+  "num_epochs": 30,
+  "lr": 0.0005,
+  "optimizer": "adam",
+  "batch_size": 16,
+  "Num_train": 256,
+  "Num_test": 128,
+  "patience": 10, 
+  "log_interval":16,
+  "min_lr": 0.00005, 
+  "isHardMining": "true",
+  "isSample": false,
+  "isAug":true,
+  "embedding_size":2,
+  "isPretrain": false,
+  "withSPP":false,
+  "model_path": " ",
+  
+  "dict": {"E": 0, "F": 1, "G": 2, "H": 3, "I": 4, "J": 5},
+  "Fusion": [
+    "F", "H", "I"
+  ]
+  
+}
